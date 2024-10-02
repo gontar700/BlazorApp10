@@ -1,0 +1,59 @@
+﻿body {
+    margin: 0;
+    height: 100vh;
+    background-image: url('bg2.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: flex; /* Use flexbox for layout */
+    height: 100%; /* Fill the full height */
+    overflow: hidden; /* Hides overflow content */
+}
+
+.left, .right {
+    flex: 1; /* Each div takes equal space */
+    padding: 20px; /* Add some padding */
+    /* box-sizing: border-box; */ /* Include padding in the width/height calculation */
+}
+
+#mycheckbox {
+    transform: scale(1.5); /* Scale the checkbox */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin: 10px; /* Optional: add some spacing */
+    margin: 2px;
+}
+
+.nav {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: left; /* Center horizontally */
+}
+
+.nav {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: purple;
+    margin: 5px 0 0 195px;
+}
+
+img {
+    width: 520px;
+    margin: 0 0 0 119px;
+}
+
+img {
+    width: 400px;
+    margin: -130px 0 0 100px;
+}
+
+.headline1 {
+    margin: 0 0 0 177px;
+    width: 50%;
+    color: darkblue;
+}
+
+h1 {
+    font-size: 133px;
+    font-family: math;
+}
